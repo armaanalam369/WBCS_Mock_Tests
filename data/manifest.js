@@ -1,9 +1,9 @@
 /* Register a new set: add "set-N" to a topic's list, then create data/<slug>/set-N.js */
 
 const BANK=[
-["english","English",[]],
+["english","English",["set-1"]],
 ["ancient-history","Ancient History",["set-1"]],
-["medieval-history","Medieval History",[]],
+["medieval-history","Medieval History",["set-1"]],
 ["modern-history","Modern History",[]],
 ["national-movement","Indian National Movement",[]],
 ["indian-geography","Indian Geography",[]],
