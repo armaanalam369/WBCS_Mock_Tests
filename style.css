@@ -31,3 +31,6 @@ dialog{border:1px solid var(--line);border-radius:20px;background:var(--card);co
 label{display:block;margin:12px 0 4px;font-weight:600;font-size:.88rem}input,select{width:100%;padding:9px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit}input[type=checkbox]{width:auto;margin-right:6px}
 button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--hi);outline-offset:2px}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+/* ---- brand ribbon ---- */
+.ribbon{position:sticky;top:0;z-index:19;background:#14205a;color:#fff;text-align:center;padding:calc(12px + env(safe-area-inset-top,0px)) 56px 12px;font:700 1.05rem Georgia,"Iowan Old Style",serif;letter-spacing:.04em;border-bottom:3px solid var(--hi);box-shadow:0 4px 16px rgba(16,24,51,.25)}
+.fab{top:calc(7px + env(safe-area-inset-top,0px));width:38px;height:38px;font-size:16px}
