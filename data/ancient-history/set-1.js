@@ -1,4 +1,4 @@
-RegisterSet("ancient-history", "set-1", [
+registerSet("ancient-history", "set-1", [
   {
     q: "Consider the following statements regarding the Harappan Civilization:\n1. Harappan cities generally followed a planned layout.\n2. The civilization had an elaborate drainage system.\n3. Iron was extensively used for making agricultural implements.\n4. Standardized weights were used in trade.\nWhich of the statements given above are correct?",
     options: ["1, 2 and 4 only", "1 and 3 only", "2 and 3 only", "1, 2, 3 and 4"],
