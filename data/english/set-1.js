@@ -1,4 +1,4 @@
-RegisterSet("english", "set-1", [
+registerSet("english", "set-1", [
   {
     q: "The meeting was called off because of heavy rain. The underlined phrasal verb means:",
     options: ["announced", "postponed temporarily", "cancelled", "continued"],
