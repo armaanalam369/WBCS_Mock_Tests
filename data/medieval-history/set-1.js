@@ -1,4 +1,4 @@
-RegisterSet("medieval-history", "set-1", [
+registerSet("medieval-history", "set-1", [
   {
     q: "Who founded the Pala dynasty in Bengal?",
     options: ["Dharmapala", "Gopala", "Devapala", "Mahipala I"],
