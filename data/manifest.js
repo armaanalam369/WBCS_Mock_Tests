@@ -1,10 +1,61 @@
 /* Register a new set: add "set-N" to a topic's list, then create data/<slug>/set-N.js */
-const BANK=[["english","English",[]],["ancient-history","Ancient History",["set-1"]],["medieval-history","Medieval History",[]],
-["modern-history","Modern History",[]],["national-movement","Indian National Movement",[]],["indian-geography","Indian Geography",[]],
-["world-geography","World & Physical Geography",[]],["arts-culture","Arts & Culture",[]],["west-bengal","West Bengal Specific",[]],
-["polity","Indian Polity",["set-1"]],["economy","Indian Economy",[]],["physics","Physics",[]],["chemistry","Chemistry",[]],
-["biology","Biology",[]],["environment","Environmental Studies",[]],["static-gk","Static GK",[]],["current-affairs","Current Affairs",[]],
-["gma","General Mental Ability",[]]].map(([slug,name,sets])=>({slug,name,sets}));
+const BANK=[
+["english","English",
+ ["set-1"]
+],
+["ancient-history","Ancient History",
+ ["set-1"]
+],
+["medieval-history","Medieval History",
+ ["set-1"]
+],
+["modern-history","Modern History",
+ ["set-1"]
+],
+ ["national-movement","Indian National Movement",
+  ["set-1"]
+ ],
+ ["indian-geography","Indian Geography",
+  ["set-1"]
+ ],
+["world-geography","World & Physical Geography",
+ ["set-1"]
+],
+ ["arts-culture","Arts & Culture",
+  ["set-1"]
+ ],
+ ["west-bengal","West Bengal Specific",
+  ["set-1"]
+ ],
+["polity","Indian Polity",
+ ["set-1"]
+],
+ ["economy","Indian Economy",
+  ["set-1"]
+ ],
+ ["physics","Physics",
+  ["set-1"]
+ ],
+ ["chemistry","Chemistry",
+  ["set-1"]
+ ],
+ ["biology","Biology",
+  ["set-1"]
+ ],
+ ["environment","Environmental Studies",
+  ["set-1"]
+ ],
+ ["static-gk","Static GK",
+  ["set-1"]
+ ],
+ ["current-affairs","Current Affairs",
+  ["set-1"]
+ ],
+ ["gma","General Mental Ability",
+  ["set-1"]
+ ]].map(([slug,name,sets])=>({slug,name,sets}));
+
+
 const MOCK_COUNT=5; // numbered mocks shown (Mock 1..N)
 const MOCK_PATTERN={totalMinutes:180,mpq:1,negative:0.25, // negative = fraction of a mark per wrong answer
  units:[
